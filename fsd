@@ -1,0 +1,29 @@
+[33mcommit b0e63ad0a57510d65814ac8ff98c7eb16bf359c1[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Juan Quemada <jquemada@dit.upm.es>
+Date:   Tue Feb 14 19:23:10 2017 +0100
+
+    x^2 button
+
+[1mdiff --git a/calculator.html b/calculator.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..839b37e[m
+[1m--- /dev/null[m
+[1m+++ b/calculator.html[m
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32m<!DOCTYPE html><html><head>[m
+[32m+[m[32m<title>Calculator</title><meta charset="utf-8">[m
+[32m+[m[32m<script type="text/javascript">[m
+[32m+[m
+[32m+[m[32mfunction square() {[m
+[32m+[m[32m  var num = document.getElementById("n1");[m
+[32m+[m[32m  num.value = num.value * num.value;[m
+[32m+[m[32m}[m
+[32m+[m[32m</script>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m  Number:[m
+[32m+[m[32m  <input type="text" id="n1"><p>[m
+[32m+[m
+[32m+[m[32m  <button onclick="square()"> x<sup>2</sup> </button>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
